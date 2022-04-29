@@ -1,10 +1,11 @@
-import {Button} from "antd";
 import './App.css';
+import './index.css';
+import { Button } from 'antd';
 
 function App() {
   return (
     <div className="App">
-      <Button type="primary">Ant Design</Button>
+      <Button type="primary">Button</Button>
     </div>
   );
 }
