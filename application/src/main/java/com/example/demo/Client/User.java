@@ -2,13 +2,13 @@ package com.example.demo.Client;
 
 import lombok.*;
 
-@ToString
+@ToString// lombok annotations
 @Getter
 @Setter
 @EqualsAndHashCode
 @NoArgsConstructor
 @AllArgsConstructor
-public class Instructor {
+public class User {
     private Long id;
     private String name;
     private String email;
