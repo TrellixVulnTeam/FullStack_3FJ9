@@ -13,6 +13,6 @@ public class UserController {
 
     @GetMapping
     public List<User> getAllUsers() {
-        return Arrays.asList( new User(1L, "John Doe", "BANg@eijr.pl", Gender.MALE));
+        return Arrays.asList( new User(1L, "John Doe", "BANg@eijr.pl", Gender.MALE), new User(2L, "Biedok", "waijfiw", Gender.MALE));
     }
 }
